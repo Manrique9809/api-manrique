@@ -1,0 +1,7 @@
+order allow,deny
+<Files ~ "\.(jpg|jpeg|png|gif|pdf|txt|bmp)$">
+   allow from all
+</Files>
+<Directory "http://ia.media-imdb.com/images/">
+Allow from all
+</Directory>
